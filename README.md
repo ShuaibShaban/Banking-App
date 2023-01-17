@@ -18,7 +18,7 @@
 #### Installations
 - `clone` or `fork` the repo of my project by opening your terminal / Command Line Interface on your computer.
 
-- Click on the live linkl deployment `bank-of-flatiron-chi.vercel.app`.
+- Click on the live link deployment `bank-of-flatiron-chi.vercel.app`.
 
 - Clone the repository by using this `git clone https://github.com/ShuaibShaban/Flat-Iron-Bank`
 
@@ -30,7 +30,6 @@
 - once the project opens in `Visual Studio Code` then change directory to flatironbank by typing `cd flatironbank`
 
 ##### commands to get the application to run
-- `cd flatironbank`
 - To get the server running run the command `json-server --watchdb.json`
 
 - Alternatively, run `npm start` to get the project hosted at a local port that will be provided after the server runs.

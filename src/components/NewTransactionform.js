@@ -34,7 +34,7 @@ function NewTransactionForm({ onSubmission }) {
     <form onChange={handleChange} onSubmit={handleSubmit} id="new-item form">
       <div className="form-inputs">
         <label htmlForm="date">Date</label>
-        <input value={formData.date} name="date" id="date" />
+        <input type="date" value={formData.date} name="date" id="date" />
         <input
           value={formData.description}
           name="description"
@@ -49,7 +49,13 @@ function NewTransactionForm({ onSubmission }) {
           type="text"
           placeholder="Category...."
         />
-        <input value={formData.amount} placeholder="amount" type="number" />
+        <input 
+        value={formData.amount} 
+        name="amount"
+        className="text-in"
+        type="number" 
+        placeholder="amount..." 
+        />
       </div>
       <button className="btn">Click To Add New Transaction</button>
     </form>
