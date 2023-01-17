@@ -18,6 +18,8 @@
 #### Installations
 - `clone` or `fork` the repo of my project by opening your terminal / Command Line Interface on your computer.
 
+- Click on the live linkl deployment `bank-of-flatiron-chi.vercel.app`.
+
 - Clone the repository by using this `git clone https://github.com/ShuaibShaban/Flat-Iron-Bank`
 
 - you then change directory to the folder of the repository:
